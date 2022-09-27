@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+ 
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App {
+    animation: App-logo-spin infinite 20s linear;
+    background-color: rgb(115, 172, 172);
+  }
+}
+
+.form {
+display: flex;
+height: 400px;
+width: 400px;
+margin: 50px 0 0 500px;
+border: 1px solid gray;
+border-radius: 1rem;
+
+}
+.form:hover {
+  background-color: rgb(187, 196, 196);
+  }
+
+
+  
